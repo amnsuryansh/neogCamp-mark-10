@@ -1,0 +1,41 @@
+
+:root{
+    --div-color:#1F2937;
+}
+body{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    background-color:var(--div-color) ;
+    color: white;
+    padding-bottom: 2rem;
+}
+h1{
+    text-align: center;
+}
+p{
+    padding:1rem;
+    font-size: large;
+}
+input{
+    width:70%;
+    margin:auto ;
+    height:30px;
+}
+button{
+    width:50%;
+    
+    margin:1rem auto;
+    height:30px;
+    
+}
+
+
+
